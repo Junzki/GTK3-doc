@@ -5,18 +5,26 @@ permalink: /:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
+#highlighter: redcarpet
+markdown: redcarpet
+redcarpet:
+        extensions:
+                - hard_wrap
+                - no_intra_emphasis
+                - autolink
+                - strikethrough
+                - fenced_code_blocks
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
+title : "GTK+ 3 Chinese Reference Manual"
+
 tagline: Site Tagline
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : ZhengMingpei
+  email : yueyawanbian@gmail.com
+  github : Zhengmingpei
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
