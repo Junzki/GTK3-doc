@@ -32,4 +32,4 @@ tagline: Supporting tagline
 3. 配置环境变量
 
 [1]:{{BASE_PATH}}/2014/11/03/gtk1/ 
-[Appendix1]: /2014/11/03/gtk2 
+[Appendix1]: {{BASE_PATH}}/2014/11/03/gtk2 
