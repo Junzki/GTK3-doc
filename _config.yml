@@ -6,7 +6,7 @@ permalink: /:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 #highlighter: redcarpet
-markdown: redcarpet
+markdown: redcarpet 
 redcarpet:
         extensions:
                 - hard_wrap
