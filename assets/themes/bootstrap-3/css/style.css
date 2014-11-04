@@ -12,14 +12,26 @@
 /* Replaced with standard BS3 Navbar */
 /*.navbar .nav {
   float: right; }*/
+html, body {
+  background-color: #eee;
+}
+.container > footer p {
+  text-align: center; /* center align it with the container */
+}
+.container {
+  width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+}
+
 
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
   color: #f22430;
 }
+/*#f22430*/
 #footer {
   background-color: #fdcd60;
 }
+/*fdcd60*/
 
 
 
