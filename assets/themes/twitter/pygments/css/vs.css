@@ -1,9 +1,9 @@
-.hll { background-color: #ffffcc }/*ffffcc*/
+.hll { background-color: #ffffcc }
 .c { color: #008000 } /* Comment */
 .err { border: 1px solid #FF0000 } /* Error */
 .k { color: #0000ff } /* Keyword */
 .cm { color: #008000 } /* Comment.Multiline */
-.cp { color: #70cd00 } /* Comment.Preproc */
+.cp { color: #32cd32 } /* Comment.Preproc */
 .c1 { color: #008000 } /* Comment.Single */
 .cs { color: #008000 } /* Comment.Special */
 .ge { font-style: italic } /* Generic.Emph */
@@ -11,22 +11,17 @@
 .gp { font-weight: bold } /* Generic.Prompt */
 .gs { font-weight: bold } /* Generic.Strong */
 .gu { font-weight: bold } /* Generic.Subheading */
-.k {color: #ee1010} /* for */
 .kc { color: #0000ff } /* Keyword.Constant */
 .kd { color: #0000ff } /* Keyword.Declaration */
 .kn { color: #0000ff } /* Keyword.Namespace */
 .kp { color: #0000ff } /* Keyword.Pseudo */
 .kr { color: #0000ff } /* Keyword.Reserved */
-.kt { color: #2b91af } /* Keyword.Type ,int*/
-.s { color: #a31515 } /* Literal.String ,"hihi"*/
-.mi {color: #e1e1e1 } /* number */
-.n { color: #e1e1e1 } /* eg. printf */
+.kt { color: #00b2ee } /* Keyword.Type */
+.s { color: #a31515 } /* Literal.String */
 .nc { color: #2b91af } /* Name.Class */
-.nf { color: #e1e1e1 }/* main */
-.o { color:#00cdcd }
+.o { color: #ffa500 }
 .ow { color: #0000ff } /* Operator.Word */
-.p {color: #e1e1ff } /* () */
-.s {color: #a32e2e } /* " */
+.p { color: #db7093 }
 .sb { color: #a31515 } /* Literal.String.Backtick */
 .sc { color: #a31515 } /* Literal.String.Char */
 .sd { color: #a31515 } /* Literal.String.Doc */
